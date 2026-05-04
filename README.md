@@ -81,21 +81,23 @@ The app ensures that tasks remain saved even after page refresh using **LocalSto
 Follow these steps to run the project locally:
 
 ``bash
-# 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/Adarshsharma22/TodoList-react-js.git
 
-# 2. Navigate to project directory
+### 2. Navigate to project directory
 cd TodoList-react-js
 
-# 3. Install dependencies
+### 3. Install dependencies
 npm install
 
-# 4. Start development server
+### 4. Start development server
 npm run dev
 
 ---
 
 ## 📂 Project Structure
+
+``bash
 src/
 │── Components/
 │   ├── Todo.jsx
@@ -114,63 +116,79 @@ src/
 
 This project demonstrates understanding of:
 
--Component-based architecture
--State management using hooks
--Controlled forms in React
--Conditional rendering
--Event handling
--LocalStorage API
--Responsive design principles
--💡 Challenges Faced & Solutions
--❌ Issue: Tasks disappearing after refresh
--✔️ Solution: Implemented LocalStorage to persist data
+- Component-based architecture  
+- State management using hooks  
+- Controlled forms in React  
+- Conditional rendering  
+- Event handling  
+- LocalStorage API  
+- Responsive design principles  
 
--❌ Issue: Layout overflow & responsiveness
--✔️ Solution:
+---
 
--Used Tailwind utility classes
--Replaced fixed height with flexible layout
--🚀 Future Enhancements
--🔥 Drag-and-drop task reordering
--🔥 Task categories (Work / Personal / Study)
--🔥 Priority levels (High / Medium / Low)
--🔥 Due dates & reminders
--🔥 Dark/Light mode toggle
--🔥 Backend integration (Node.js + MongoDB)
--🔥 User authentication system
--🔥 AI-based task suggestions
+## 💡 Challenges Faced & Solutions
+
+### ❌ Issue: Tasks disappearing after refresh  
+✔️ **Solution:** Implemented LocalStorage to persist data    
+
+### ❌ Issue: Layout overflow & responsiveness  
+✔️ **Solution:**
+- Used Tailwind utility classes  
+- Replaced fixed height with flexible layout  
+
+---
+
+## 🚀 Future Enhancements
+
+- 🔥 Drag-and-drop task reordering  
+- 🔥 Task categories (Work / Personal / Study)  
+- 🔥 Priority levels (High / Medium / Low)  
+- 🔥 Due dates & reminders  
+- 🔥 Dark/Light mode toggle  
+- 🔥 Backend integration (Node.js + MongoDB)  
+- 🔥 User authentication system  
+- 🔥 AI-based task suggestions  
 
 ---
 
 ## 🌐 Live Demo
 
--🚧 Coming Soon (Deploy on Vercel / Netlify)
-
-## 🤝 Contributing
-
--Contributions are welcome!
--Fork the repository
--Create a new branch
--Make your changes
--Submit a pull request
-
-## 📬 Contact
-## 🔗 GitHub: https://github.com/Adarshsharma22
-## 💼 LinkedIn: www.linkedin.com/in/adarsh-sharma-03974430a
-
-## ⭐ Show Your Support
-
--If you found this project useful:
-
-## ⭐ Give it a star on GitHub
-## 🔁 Share it with others
-## 💬 Provide feedback
-## 🔥 Final Note
+🚧 Coming Soon (Deploy on Vercel / Netlify)
 
 ---
 
-## This project is more than just a simple todo app — it reflects:
+## 🤝 Contributing
 
-### Real-world problem solving
-### Clean UI/UX thinking
-### Practical React development skills
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a new branch  
+3. Make your changes  
+4. Submit a pull request  
+
+---
+
+## 📬 Contact
+
+- 🔗 GitHub: https://github.com/Adarshsharma22  
+- 💼 LinkedIn: www.linkedin.com/in/adarsh-sharma-03974430a  
+
+---
+
+## ⭐ Show Your Support
+
+If you found this project useful:
+
+- ⭐ Give it a star on GitHub  
+- 🔁 Share it with others  
+- 💬 Provide feedback  
+
+---
+
+## 🔥 Final Note
+
+This project is more than just a simple todo app — it reflects:
+
+- Real-world problem solving  
+- Clean UI/UX thinking  
+- Practical React development skills  
