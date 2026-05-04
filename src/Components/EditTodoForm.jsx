@@ -6,7 +6,7 @@ export const EditTodoForm = ({ editTodo, task }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (value.trim()) {
-            editTodo(value, task.id); // Triggers the task update logic[cite: 5]
+            editTodo(value, task.id); 
         }
     };
 
@@ -21,7 +21,7 @@ export const EditTodoForm = ({ editTodo, task }) => {
                 onChange={(e) => setValue(e.target.value)} 
                 className="flex-1 bg-slate-800/80 border-2 border-emerald-500/50 text-white text-sm rounded-lg focus:ring-2 focus:ring-emerald-400 focus:border-emerald-400 block w-full p-3 transition-all outline-none" 
                 placeholder='Update task' 
-                autoFocus // UX: Automatically focus the input when editing starts
+                autoFocus 
             />
             <button 
                 type="submit" 

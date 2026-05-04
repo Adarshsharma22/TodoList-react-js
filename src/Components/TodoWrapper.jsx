@@ -43,10 +43,10 @@ export const TodoWrapper = () => {
   };
 
   return (
-    /* Background with a more refined mesh-style gradient */
-    <div className="min-h-screen bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 flex justify-center items-start pt-16 px-4">
+   
+    <div className="min-h-screen overflow-hidden flex justify-center items-start pt-16 px-4">
       
-      {/* Container with enhanced glassmorphism effects */}
+     
       <div className="w-full max-w-md bg-slate-950/60 backdrop-blur-xl p-10 rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/5 transition-all duration-500">
         
         <header className="mb-8 text-center">
@@ -60,7 +60,7 @@ export const TodoWrapper = () => {
 
         <TodoForm addTodo={addTodo} />
         
-        {/* List container with improved spacing and empty state */}
+        
         <div className="mt-10 space-y-4">
           {todos.length === 0 ? (
             <div className="flex flex-col items-center py-10 opacity-40">

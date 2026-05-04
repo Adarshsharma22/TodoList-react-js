@@ -7,7 +7,7 @@ export const Todo = ({task, deleteTodo, editTodo, toggleComplete}) => {
   return (
     <div className="flex items-center justify-between bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl mb-3 transition-all duration-300 hover:bg-slate-800 hover:shadow-lg hover:shadow-indigo-500/10 group">
         
-        {/* Task Text with Interactive States */}
+        
         <p 
           className={`flex-1 cursor-pointer text-lg font-medium transition-all duration-300 ${
             task.completed 
@@ -19,7 +19,7 @@ export const Todo = ({task, deleteTodo, editTodo, toggleComplete}) => {
           {task.task}
         </p>
 
-        {/* Action Buttons */}
+        
         <div className="flex items-center gap-3 ml-4 opacity-70 group-hover:opacity-100 transition-opacity">
           <button 
             onClick={() => editTodo(task.id)}

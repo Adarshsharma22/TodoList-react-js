@@ -43,26 +43,26 @@ export const TodoWrapperLocalStorage = () => {
     }
 
     return (
-        /* Full-screen gradient background */
-        <div className='min-h-screen bg-gradient-to-tr from-slate-900 via-purple-900 to-slate-900 py-12 px-4'>
+        <div className="min-h-screen py-12 px-4 flex justify-cente">
             
-            {/* Glassmorphism Container */}
             <div className='max-w-xl mx-auto bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-2xl border border-white/20'>
                 
                 <header className='mb-8 text-center'>
-                    <h1 className='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400'>
-                        Task Tracker
+                    <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-500 to-red-500 ">
+                        What’s on your list today?
                     </h1>
-                    <p className='text-slate-400 mt-2'>Stay organized and productive</p>
+                    <h4 className="text-blue-300 font-medium uppercase tracking-[0.2em] text-xs mt-3 opacity-80">
+                        Focus • Finish • Repeat
+                    </h4>
                 </header>
 
                 <TodoForm addTodo={addTodo} />
 
-                {/* Task List Section */}
+                
                 <div className='mt-8 space-y-4'>
                     {todos.length === 0 ? (
                         <div className='text-center py-10'>
-                            <p className='text-slate-500 italic'>Your list is empty. Start by adding a task!</p>
+                            <p className='text-slate-300 italic'>Your list is empty. Start by adding a task!</p>
                         </div>
                     ) : (
                         todos.map((todo) => (
@@ -85,7 +85,7 @@ export const TodoWrapperLocalStorage = () => {
                     )}
                 </div>
 
-                {/* Footer Stats (UX Addition) */}
+                
                 {todos.length > 0 && (
                     <div className='mt-8 pt-6 border-t border-white/10 flex justify-between text-sm text-slate-400'>
                         <span>Total: {todos.length}</span>
