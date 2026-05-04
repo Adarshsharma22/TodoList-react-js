@@ -62,13 +62,16 @@ The app ensures that tasks remain saved even after page refresh using **LocalSto
 
 <img width="1536" height="1024" alt="ChatGPT Image May 4, 2026, 01_34_35 PM" src="https://github.com/user-attachments/assets/7e58e835-4881-41b8-a95d-239c669422e5" />
 
+
 - Home UI
 
 <img width="1920" height="1080" alt="Screenshot 2026-05-04 140103" src="https://github.com/user-attachments/assets/58f8bcd4-10dd-4be9-a412-9d1143235adb" />
 
+
 - Task added
 
 <img width="1920" height="1080" alt="Screenshot 2026-05-04 140019" src="https://github.com/user-attachments/assets/0cc2ec83-66f9-4624-9062-daf370d242bb" />
+
 
 - Completed task
 
@@ -97,7 +100,7 @@ npm run dev
 
 ## 📂 Project Structure
 
-``bash
+```bash
 src/
 │── Components/
 │   ├── Todo.jsx
@@ -109,7 +112,7 @@ src/
 │── App.jsx
 │── main.jsx
 │── index.css
-
+```
 ---
 
 ## 🧠 Concepts Applied
