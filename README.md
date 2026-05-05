@@ -6,6 +6,12 @@ Designed with a focus on **clean UI, smooth UX, and real-world functionality**, 
 
 ---
 
+## 🌐 Live Demo
+
+(https://adarshsharma22.github.io/TodoList-react-js/)
+
+---
+
 ## 🌟 Overview
 
 Managing daily tasks can become overwhelming without proper tools. This application provides a simple yet powerful interface for users to:
@@ -151,12 +157,6 @@ This project demonstrates understanding of:
 - 🔥 Backend integration (Node.js + MongoDB)  
 - 🔥 User authentication system  
 - 🔥 AI-based task suggestions  
-
----
-
-## 🌐 Live Demo
-
-🚧 Coming Soon (Deploy on Vercel / Netlify)
 
 ---
 
