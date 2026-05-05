@@ -6,7 +6,7 @@ function App() {
     <div 
     className="bg-fixed bg-cover bg-center min-h-screen"
     style={{
-    backgroundImage: "url('/GoodEvening.jpg')"
+    backgroundImage: "url('/TodoList-react-js/GoodEvening.jpg')"
   }} >
       <TodoWrapperLocalStorage  />
     </div>
